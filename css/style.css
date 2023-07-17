@@ -27,6 +27,7 @@ h1 {
   text-transform: uppercase;
   color: #424242;
   cursor: default;
+  text-align: center;
 }
 
 h2 {
@@ -126,6 +127,29 @@ p {
 .date {
   font-size: 24px;
   cursor: default;
+}
+
+.video-container {
+  width: 75%;
+  margin: auto;
+}
+
+.video-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-frame {
+  height: 200px;
+}
+
+.video-title {
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
